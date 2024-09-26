@@ -157,6 +157,17 @@ header h2 {
     flex: 1070px;
 }
 
+.qrcode {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.qrcode img {
+    width: 100px;
+    height: auto;
+}
+
 footer {
     text-align: center;
     margin-top: 40px;
