@@ -38,10 +38,10 @@ body {
     }    
 
     header h1 {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
         font-family: 'Times New Roman', serif;
         margin-bottom: 10px;
-        margin-top: -12px;
+        margin-top: -7px;
     }
 
     header h1::before,
@@ -68,6 +68,7 @@ body {
         color: #8eade6;
         letter-spacing: 1px;
         margin-bottom: 40px;
+        margin-top: 1rem;
     }
 
     .main-content {
@@ -86,68 +87,74 @@ body {
     }
 
     .image-block img {
-        width: 100%;
-        height: 450px;
+        width: 80%;
+        height: 200px;
         object-fit: cover;
         border-radius: 8px;
+        font-size: -12rem;
+        margin-right: -20rem;
+        margin-left: 8px;
     }
 
     .image-row .image-block:nth-child(1) img,
     .image-row .image-block:nth-child(2) img {
-        border: 10px solid black;
+        border: 8px solid black;
         border-radius: 20px;
+   
     }
 
     .separator {
-        border-left: 4px solid black;
+        border-left: 2px solid black;
         height: 100%; /* O contêiner terá a altura total da linha de imagens */
         width: 20px;  /* Para definir a largura da linha */
-        margin-right: -15px; /* Espaçamento após a linha preta */
+        margin-right: -100px; /* Espaçamento após a linha preta */
     }
-
 
     .vertical-line {
         border-left: 4px solid black;
         height: 100%;
         margin: 0 20px;
         align-self: stretch; 
-        margin-top: -550px;
-        margin-left: 12px;
-        height: 2400px;
+        margin-top: -310px;
+        margin-left: -0.5px;
+        height: 1630px;
     }
 
     .image-block p {
         text-align: center;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         margin-top: 8px;
         color: #555;
     }
 
-    .text-and-line {
+    /*.text-and-line {
         display: flex;
         flex-direction: row;
         gap: 20px;
-    }
+    }*/
 
     /* Estilo do texto */
     .news-text {
         flex: 3; /* O texto ocupará 2/3 do espaço */
-        margin-left: 75px;
+        margin-left: -1px;
+        margin-top: -2rem;
     }
 
     .news-text h3 {
-        font-size: 2rem;
+        font-size: 1rem;
         margin-bottom: 15px;
         font-weight: bold;
         text-align: center;
+        margin-left: 4.5px;
     
     }
 
     .news-text p {
-        font-size: 1.1rem;
+        font-size: 1rem;
         margin-bottom: 15px;
-        line-height: 1.6;
+        line-height: 1.5;
         text-align: justify;
+        width: 205px;
     
     }
 
