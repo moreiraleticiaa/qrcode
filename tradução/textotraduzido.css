@@ -105,14 +105,15 @@ body {
         margin-right: -15px; /* Espaçamento após a linha preta */
     }
 
+
     .vertical-line {
         border-left: 4px solid black;
         height: 100%;
         margin: 0 20px;
         align-self: stretch; 
-        margin-top: -518px;
-        margin-left: 30px;
-        height: 1220px;
+        margin-top: -550px;
+        margin-left: 12px;
+        height: 2400px;
     }
 
     .image-block p {
